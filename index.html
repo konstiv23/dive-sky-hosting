@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>-</title>
+      <script type="module" crossorigin src="/dive-sky-hosting/assets/index-CSIPv9bo.js"></script>
+      <link rel="stylesheet" crossorigin href="/dive-sky-hosting/assets/index-CH-pi1Bg.css">
+    </head>
+    <body>
+        <div id="debug-info"></div>
+
+        <canvas id="three-canvas"></canvas>
+
+        <div id="hud">
+            <progress value="0"></progress>
+            <div id="level">lvl <span id="level-val">1</span></div>
+        </div>
+
+        <section id="controls">
+            <div id="circle">
+                <div id="arrow-wrapper">
+                    <div id="arrow" class="hidden"></div>
+                </div>
+            </div>
+            <div id="accel">
+                <button id="speed-up">Speed Up</button>
+                <button id="brake">Brake</button>
+            </div>
+        </section>
+
+        <dialog id="course-selection-dialog">
+            <div id="course-selection-main">
+                <h2>Select Course</h2>
+                <div id="course-list">
+                    <!-- <div class="card">
+                        <div class="course-idx">0</div>
+                        <div>Max lvl: <span class="max-lvl">1</span></div>
+                    </div> -->
+                </div>
+            </div>
+        </dialog>
+
+        <dialog id="level-reached">
+            <div id="level-reached-main">
+                <h2>
+                    Reached lvl<br />
+                    <span id="level-reached-val">?</span>
+                </h2>
+                <button id="level-reached-ok-btn">OK</button>
+            </div>
+        </dialog>
+
+    </body>
+</html>
